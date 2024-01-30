@@ -22,6 +22,8 @@ p,h1,h2,h3,h4,h5,h6{
   }
 ul{
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 a{
     text-decoration: none;
@@ -33,7 +35,7 @@ img{
     width: 100%;
     max-width: 1158px;
     padding: 0 15px;
-    margin: o auto;
+    margin: 0 auto;
 }
 .section{
     padding-top: 120;
@@ -66,17 +68,18 @@ border-bottom: 1px solid  #E7E9FC;
     color: #4D5AE5; 
     font-family: "Raleway", sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-left: 156px;
+    margin-right: 76px;
+    
  
 }
 
 .header-logo-accent{
 color: #2E2F42; 
+
 
 }
 .header-menu-list{
@@ -90,6 +93,8 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
+padding: 24px 0;
+display: block;
 
 }
 .header-menu-link:hover,
@@ -101,7 +106,6 @@ letter-spacing: 0.02em;
 }
 .address-list{
     display: flex;
-    padding-right: 156px;
     gap: 40px;
    
 }
@@ -219,7 +223,6 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-padding-top: 120px;
 margin-bottom: 72px;
 
 
@@ -227,13 +230,8 @@ margin-bottom: 72px;
 .team-list{
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
-    padding-left: 156px;
-    
-    
-    
-
 }
+
 .team-item {
  background-color: #FFF ;
  width: calc((100% - 72px ) / 4);
@@ -253,7 +251,6 @@ margin-bottom: 72px;
     display: block;
     max-width: 100%;
     height: auto;
-    margin-bottom: 32px;
 }
 .team-name {
 color: #2E2F42;
@@ -283,10 +280,9 @@ text-align: center;
     padding-bottom: 120px;   
 }
 
-.portfolio-container{
-    padding: 36px 16px;
+.portfolio-container{}
     
-}
+
 .portfolio-title {
 color: #2E2F42;
 text-align: center;
@@ -295,7 +291,6 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-margin-top: 120px;
 margin-bottom: 72px;
 }
 
@@ -303,7 +298,7 @@ margin-bottom: 72px;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    margin: 0 156px;
+    
    
    
 }
@@ -314,14 +309,16 @@ margin-bottom: 72px;
 }
 
 .portfolio-cont{
- padding: 0 16px 32px 16px;
+ padding: 32px 16px 32px 16px;
+ border: 1px solid  #E7E9FC;
+ border-top: none;
+
 
 }
 .portfolio-img{
     display: block;
     max-width: 100%;
     height: auto;
-    margin-bottom: 32px;
     flex-shrink: 0;
 }
 
